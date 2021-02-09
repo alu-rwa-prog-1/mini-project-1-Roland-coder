@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:like_button/like_button.dart';
 
 void main() => runApp(MaterialApp(
       home: ShoppingApp(),
@@ -9,7 +10,7 @@ class ShoppingApp extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey[100],
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.pinkAccent,
         elevation: 0.0,
 //         leading: Icon(
 //           Icons.menu,
@@ -50,7 +51,7 @@ class ShoppingApp extends StatelessWidget {
                   Text(
                     'All Categories',
                     style: TextStyle(
-                      color: Colors.blue,
+                      color: Colors.pinkAccent,
                       fontWeight: FontWeight.bold,
                       fontSize: 20.0,
                     ),
@@ -58,9 +59,7 @@ class ShoppingApp extends StatelessWidget {
                   Spacer(),
                   Text(
                     'View all',
-                    style: TextStyle(
-                      color: Colors.blue,
-                    ),
+                    style: TextStyle(color: Colors.pinkAccent),
                   )
                 ],
               ),
@@ -80,7 +79,7 @@ class ShoppingApp extends StatelessWidget {
                       Text(
                         'Shoes',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.pinkAccent,
                         ),
                       ),
                     ],
@@ -95,7 +94,7 @@ class ShoppingApp extends StatelessWidget {
                       Text(
                         'Cloths',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.pinkAccent,
                         ),
                       ),
                     ],
@@ -110,7 +109,7 @@ class ShoppingApp extends StatelessWidget {
                       Text(
                         'Electronics',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.pinkAccent,
                         ),
                       ),
                     ],
@@ -125,7 +124,7 @@ class ShoppingApp extends StatelessWidget {
                       Text(
                         'Kitchen',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.pinkAccent,
                         ),
                       ),
                     ],
@@ -140,7 +139,7 @@ class ShoppingApp extends StatelessWidget {
                       Text(
                         'Cosmetics',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Colors.pinkAccent,
                         ),
                       ),
                     ],
@@ -153,7 +152,7 @@ class ShoppingApp extends StatelessWidget {
                   Text(
                     'Trending',
                     style: TextStyle(
-                      color: Colors.blue,
+                      color: Colors.pinkAccent,
                       fontWeight: FontWeight.bold,
                       fontSize: 20.0,
                     ),
@@ -162,7 +161,7 @@ class ShoppingApp extends StatelessWidget {
                   Text(
                     'View all',
                     style: TextStyle(
-                      color: Colors.blue,
+                      color: Colors.pinkAccent,
                     ),
                   ),
                 ],
@@ -195,7 +194,7 @@ class ShoppingApp extends StatelessWidget {
 
 //
 
-                                    color: Colors.blue,
+                                    color: Colors.pinkAccent,
                                     child: new Text(
                                       '-10.0%',
                                       style: TextStyle(
@@ -205,15 +204,7 @@ class ShoppingApp extends StatelessWidget {
                                     ),
                                   ),
                                   Spacer(),
-                                  IconButton(
-                                    onPressed: () {
-                                      //
-                                    },
-                                    icon: Icon(
-                                      Icons.favorite,
-                                      color: Colors.blue,
-                                    ),
-                                  ),
+                                  LikeButton(),
                                 ],
                               ),
                               SizedBox(
@@ -231,7 +222,7 @@ class ShoppingApp extends StatelessWidget {
                                   'RWF 450',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.blue[300],
+                                    color: Colors.pinkAccent[300],
                                   ),
                                 ),
                               ),
@@ -260,7 +251,7 @@ class ShoppingApp extends StatelessWidget {
 
 //
 
-                                    color: Colors.blue,
+                                    color: Colors.pinkAccent,
                                     child: new Text(
                                       '-10.0%',
                                       style: TextStyle(
@@ -270,15 +261,7 @@ class ShoppingApp extends StatelessWidget {
                                     ),
                                   ),
                                   Spacer(),
-                                  IconButton(
-                                    onPressed: () {
-                                      //
-                                    },
-                                    icon: Icon(
-                                      Icons.favorite,
-                                      color: Colors.blue,
-                                    ),
-                                  ),
+                                  LikeButton(),
                                 ],
                               ),
 
@@ -295,7 +278,7 @@ class ShoppingApp extends StatelessWidget {
                                   'RWF 3600',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.blue[300],
+                                    color: Colors.pinkAccent[300],
                                   ),
                                 ),
                               ),
@@ -324,7 +307,7 @@ class ShoppingApp extends StatelessWidget {
 
 //
 
-                                    color: Colors.blue,
+                                    color: Colors.pinkAccent,
                                     child: new Text(
                                       '-10.0%',
                                       style: TextStyle(
@@ -334,15 +317,7 @@ class ShoppingApp extends StatelessWidget {
                                     ),
                                   ),
                                   Spacer(),
-                                  IconButton(
-                                    onPressed: () {
-                                      //
-                                    },
-                                    icon: Icon(
-                                      Icons.favorite,
-                                      color: Colors.blue,
-                                    ),
-                                  ),
+                                  LikeButton(),
                                 ],
                               ),
 
@@ -358,7 +333,7 @@ class ShoppingApp extends StatelessWidget {
                                   'RWF 450',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.blue[300],
+                                    color: Colors.pinkAccent[300],
                                   ),
                                 ),
                               ),
@@ -376,7 +351,7 @@ class ShoppingApp extends StatelessWidget {
                   Text(
                     'Shoes',
                     style: TextStyle(
-                      color: Colors.blue,
+                      color: Colors.pinkAccent,
                       fontWeight: FontWeight.bold,
                       fontSize: 20.0,
                     ),
@@ -385,7 +360,7 @@ class ShoppingApp extends StatelessWidget {
                   Text(
                     'View all',
                     style: TextStyle(
-                      color: Colors.blue,
+                      color: Colors.pinkAccent,
                     ),
                   ),
                 ],
@@ -418,7 +393,7 @@ class ShoppingApp extends StatelessWidget {
 
 //
 
-                                    color: Colors.blue,
+                                    color: Colors.pinkAccent,
                                     child: new Text(
                                       '-10.0%',
                                       style: TextStyle(
@@ -428,15 +403,7 @@ class ShoppingApp extends StatelessWidget {
                                     ),
                                   ),
                                   Spacer(),
-                                  IconButton(
-                                    onPressed: () {
-                                      //
-                                    },
-                                    icon: Icon(
-                                      Icons.favorite,
-                                      color: Colors.blue,
-                                    ),
-                                  ),
+                                  LikeButton(),
                                 ],
                               ),
                               SizedBox(
@@ -454,7 +421,7 @@ class ShoppingApp extends StatelessWidget {
                                   'RWF 860',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.blue[300],
+                                    color: Colors.pinkAccent[300],
                                   ),
                                 ),
                               ),
@@ -483,7 +450,7 @@ class ShoppingApp extends StatelessWidget {
 
 //
 
-                                    color: Colors.blue,
+                                    color: Colors.pinkAccent,
                                     child: new Text(
                                       '-10.0%',
                                       style: TextStyle(
@@ -493,15 +460,7 @@ class ShoppingApp extends StatelessWidget {
                                     ),
                                   ),
                                   Spacer(),
-                                  IconButton(
-                                    onPressed: () {
-                                      //
-                                    },
-                                    icon: Icon(
-                                      Icons.favorite,
-                                      color: Colors.blue,
-                                    ),
-                                  ),
+                                  LikeButton(),
                                 ],
                               ),
 
@@ -518,7 +477,7 @@ class ShoppingApp extends StatelessWidget {
                                   'RWF 450',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.blue[300],
+                                    color: Colors.pinkAccent[300],
                                   ),
                                 ),
                               ),
@@ -547,7 +506,7 @@ class ShoppingApp extends StatelessWidget {
 
 //
 
-                                    color: Colors.blue,
+                                    color: Colors.pinkAccent,
                                     child: new Text(
                                       '-10.0%',
                                       style: TextStyle(
@@ -557,15 +516,7 @@ class ShoppingApp extends StatelessWidget {
                                     ),
                                   ),
                                   Spacer(),
-                                  IconButton(
-                                    onPressed: () {
-                                      //
-                                    },
-                                    icon: Icon(
-                                      Icons.favorite,
-                                      color: Colors.blue,
-                                    ),
-                                  ),
+                                  LikeButton(),
                                 ],
                               ),
 
@@ -581,7 +532,7 @@ class ShoppingApp extends StatelessWidget {
                                   'RWF 4580',
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
-                                    color: Colors.blue[300],
+                                    color: Colors.pinkAccent[300],
                                   ),
                                 ),
                               ),
@@ -634,13 +585,13 @@ class ShoppingApp extends StatelessWidget {
                 ),
               ),
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.pinkAccent,
               ),
             ),
             ListTile(
               leading: Icon(
                 Icons.home,
-                color: Colors.blue,
+                color: Colors.pinkAccent,
               ),
               title: Text('Home'),
               onTap: () {
@@ -653,7 +604,7 @@ class ShoppingApp extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.favorite,
-                color: Colors.blue,
+                color: Colors.pinkAccent,
               ),
               title: Text('Favorites'),
               onTap: () {
@@ -666,7 +617,7 @@ class ShoppingApp extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.search,
-                color: Colors.blue,
+                color: Colors.pinkAccent,
               ),
               title: Text('Search'),
               onTap: () {
@@ -679,7 +630,7 @@ class ShoppingApp extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.shopping_cart,
-                color: Colors.blue,
+                color: Colors.pinkAccent,
               ),
               title: Text('Shopping Cart'),
               onTap: () {
@@ -692,7 +643,7 @@ class ShoppingApp extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.person,
-                color: Colors.blue,
+                color: Colors.pinkAccent,
               ),
               title: Text('View Profile'),
               onTap: () {
@@ -705,7 +656,7 @@ class ShoppingApp extends StatelessWidget {
             ListTile(
               leading: Icon(
                 Icons.logout,
-                color: Colors.blue,
+                color: Colors.pinkAccent,
               ),
               title: Text('Log Out'),
               onTap: () {
@@ -719,7 +670,7 @@ class ShoppingApp extends StatelessWidget {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.pinkAccent,
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white,
