@@ -73,8 +73,7 @@ class ShoppingApp extends StatelessWidget {
                   Column(
                     children: [
                       CircleAvatar(
-                        backgroundImage: NetworkImage(
-                            'https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'),
+                        backgroundImage: AssetImage("assets/images/cat1.jpg"),
                         radius: 30.0,
                       ),
                       SizedBox(height: 4.0),
@@ -89,8 +88,7 @@ class ShoppingApp extends StatelessWidget {
                   Column(
                     children: [
                       CircleAvatar(
-                        backgroundImage: NetworkImage(
-                            'https://images.unsplash.com/photo-1549037173-e3b717902c57?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80'),
+                        backgroundImage: AssetImage("assets/images/cat2.jpg"),
                         radius: 30.0,
                       ),
                       SizedBox(height: 4.0),
@@ -105,8 +103,7 @@ class ShoppingApp extends StatelessWidget {
                   Column(
                     children: [
                       CircleAvatar(
-                        backgroundImage: NetworkImage(
-                            'https://images.unsplash.com/photo-1580910051074-3eb694886505?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80'),
+                        backgroundImage: AssetImage("assets/images/cat3.jpg"),
                         radius: 30.0,
                       ),
                       SizedBox(height: 4.0),
@@ -121,8 +118,7 @@ class ShoppingApp extends StatelessWidget {
                   Column(
                     children: [
                       CircleAvatar(
-                        backgroundImage: NetworkImage(
-                            'https://images.unsplash.com/photo-1509023667260-6677209e6fdf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80'),
+                        backgroundImage: AssetImage('assets/images/cat4.jpg'),
                         radius: 30.0,
                       ),
                       SizedBox(height: 4.0),
@@ -137,8 +133,7 @@ class ShoppingApp extends StatelessWidget {
                   Column(
                     children: [
                       CircleAvatar(
-                        backgroundImage: NetworkImage(
-                            'https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80'),
+                        backgroundImage: AssetImage('assets/images/cat5.jpg'),
                         radius: 30.0,
                       ),
                       SizedBox(height: 4.0),
@@ -224,10 +219,8 @@ class ShoppingApp extends StatelessWidget {
                               SizedBox(
                                 height: 5.0,
                               ),
-                              Image.network(
-                                  'https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/2f9ade68-09a7-4a99-bab9-e41e419ea438/air-force-1-07-lv8-mens-shoe-QpGw6W.jpg',
-                                  height: 100,
-                                  width: 100),
+                              Image.asset('assets/images/trend1.jpg',
+                                  height: 100, width: 100),
                               SizedBox(height: 10.0),
                               Center(
                                 child: Text('Air Force'),
@@ -290,10 +283,8 @@ class ShoppingApp extends StatelessWidget {
                               ),
 
                               SizedBox(height: 5.0),
-                              Image.network(
-                                  'https://i.etsystatic.com/22057453/r/il/c0cec0/2770128402/il_794xN.2770128402_1mx9.jpg',
-                                  height: 100,
-                                  width: 100),
+                              Image.asset('assets/images/trend2.jpg',
+                                  height: 100, width: 100),
                               SizedBox(height: 10.0),
                               Center(
                                 child: Text('Etsy Shirt'),
@@ -355,10 +346,8 @@ class ShoppingApp extends StatelessWidget {
                                 ],
                               ),
 
-                              Image.network(
-                                  'https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6418/6418601_sd.jpg',
-                                  height: 100,
-                                  width: 100),
+                              Image.asset('assets/images/trend3.jpg',
+                                  height: 100, width: 100),
                               SizedBox(height: 10.0),
                               Center(
                                 child: Text('Macbook Pro'),
@@ -453,10 +442,8 @@ class ShoppingApp extends StatelessWidget {
                               SizedBox(
                                 height: 5.0,
                               ),
-                              Image.network(
-                                  'https://media.gq-magazine.co.uk/photos/5fd8c7096524743d1adc12a8/master/w_828%2cc_limit/16122020_SU_07.jpg',
-                                  height: 100,
-                                  width: 100),
+                              Image.asset('assets/images/shoes1.jpg',
+                                  height: 100, width: 100),
                               SizedBox(height: 10.0),
                               Center(
                                 child: Text('Max Thaiwand'),
@@ -519,10 +506,8 @@ class ShoppingApp extends StatelessWidget {
                               ),
 
                               SizedBox(height: 5.0),
-                              Image.network(
-                                  'https://sneakernews.com/wp-content/uploads/2020/04/travis-scott-air-force-1-white-shoes.jpg',
-                                  height: 100,
-                                  width: 100),
+                              Image.asset('assets/images/shoes2.jpg',
+                                  height: 100, width: 100),
                               SizedBox(height: 10.0),
                               Center(
                                 child: Text('Nike Jordan'),
@@ -584,10 +569,8 @@ class ShoppingApp extends StatelessWidget {
                                 ],
                               ),
 
-                              Image.network(
-                                  'https://i.insider.com/5e38419b5bc79c4c7d4e1192?width=906&format=jpeg',
-                                  height: 100,
-                                  width: 100),
+                              Image.asset('assets/images/shoes3.jpg',
+                                  height: 100, width: 100),
                               SizedBox(height: 10.0),
                               Center(
                                 child: Text('Sneakers Pro'),
@@ -628,12 +611,25 @@ class ShoppingApp extends StatelessWidget {
                 child: Column(
                   children: [
                     CircleAvatar(
-                      backgroundImage: NetworkImage(
-                          'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80'),
-                      radius: 50.0,
+                      backgroundImage: AssetImage('assets/images/profile.jpg'),
+                      radius: 40.0,
                     ),
                     SizedBox(height: 5.0),
-                    Text('Neba Roland Ngwa'),
+                    Text(
+                      'Neba Roland Ngwa',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 3.0,
+                    ),
+                    Text(
+                      'n.ngwa@alustudent.com',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -642,7 +638,11 @@ class ShoppingApp extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text('Item 1'),
+              leading: Icon(
+                Icons.home,
+                color: Colors.blue,
+              ),
+              title: Text('Home'),
               onTap: () {
                 // Update the state of the app
                 // ...
@@ -651,7 +651,63 @@ class ShoppingApp extends StatelessWidget {
               },
             ),
             ListTile(
-              title: Text('Item 2'),
+              leading: Icon(
+                Icons.favorite,
+                color: Colors.blue,
+              ),
+              title: Text('Favorites'),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.search,
+                color: Colors.blue,
+              ),
+              title: Text('Search'),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.shopping_cart,
+                color: Colors.blue,
+              ),
+              title: Text('Shopping Cart'),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.person,
+                color: Colors.blue,
+              ),
+              title: Text('View Profile'),
+              onTap: () {
+                // Update the state of the app
+                // ...
+                // Then close the drawer
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: Icon(
+                Icons.logout,
+                color: Colors.blue,
+              ),
+              title: Text('Log Out'),
               onTap: () {
                 // Update the state of the app
                 // ...
